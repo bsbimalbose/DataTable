@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+.table-filter-head {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.table-filter-head-cell {
+  display: flex;
+  background: #efefef;
+  padding: 5px;
+  border-radius: 5px;
+}
+.sort-btn-container {
+  display: flex;
+  flex-flow: column;
+}
+.sort-btn-container span {
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.sort-btn-container span:hover {
+  background: #f5f5f5 !important;
+}
